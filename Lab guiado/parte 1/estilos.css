@@ -128,3 +128,11 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+/* Pie de página */
+.pie {
+    background: var(--verde);
+    color: #ffffff;
+    text-align: center;
+    padding: 1.25rem 0;
+}
