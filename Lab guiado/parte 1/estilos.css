@@ -59,3 +59,33 @@ body {
 .menu a:hover {
     text-decoration: underline;
 }
+
+/* Portada */
+.portada {
+    background: var(--verde-claro);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.portada h2 {
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+}
+
+.portada p {
+    margin: 0 0 1.5rem;
+}
+
+/* Enlace con apariencia de botón */
+.boton {
+    display: inline-block;
+    background: var(--verde);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radio);
+}
+
+.boton:hover {
+    background: #24523c;
+}
